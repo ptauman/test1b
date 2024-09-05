@@ -46,12 +46,16 @@ main > div{
     text-align:start;
     padding: 10px;
 }
-div >div{
+.chils{
+    margin-bottom: 8px;
     background-color: lightgrey;
     width: 35%;
     border: 1px solid #ddd;
     /* margin:1em  auto 1em auto; */
-    height: 20vh;
+    height: 200px;
+}
+.chils:hover{
+    background-color: gray;
 }
 
 div p{
@@ -68,6 +72,7 @@ div p{
 }
 input[type="Submit"]{
     background-color: #529354;
+    width: auto;
 }
 footer {
     background-color: #4CAF50;
@@ -75,9 +80,13 @@ footer {
     text-align: center;
     padding: 0.5rem;
 }
-#my
-{  display: flex;
+#father
+{   display: flex;
+    align-items: center;
+    /* justify-content: center; */
     flex-direction: column;
-    justify-content: center;
+}
+.input{
+    width: 100%;
 }
 
