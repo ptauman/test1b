@@ -13,8 +13,13 @@ header {
     background-color: #529354;
     color: white;
     padding: 8px 0;
+    position:fixed;
+    width: 100%;
+    
 }
-
+main{
+    padding-top: 150px;
+}
 
 nav ul {
     list-style: none;
@@ -46,7 +51,7 @@ main > div{
     text-align:start;
     padding: 10px;
 }
-.chils{
+.child{
     margin-bottom: 8px;
     background-color: lightgrey;
     width: 35%;
@@ -54,7 +59,7 @@ main > div{
     /* margin:1em  auto 1em auto; */
     height: 200px;
 }
-.chils:hover{
+.child:hover{
     background-color: gray;
 }
 
@@ -69,6 +74,8 @@ div p{
 }
 .professionhref{
     text-decoration: none;
+    background-color: aqua;
+    padding: 3px;
 }
 input[type="Submit"]{
     background-color: #529354;
@@ -79,6 +86,9 @@ footer {
     color: white;
     text-align: center;
     padding: 0.5rem;
+    position:static;
+    width: 100%;
+
 }
 #father
 {   display: flex;
